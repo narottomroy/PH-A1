@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+/* Banner content styles */
+.banner-content {
+  height: 400px;
+  width: auto;
+  margin-top: 20px;
+  text-align: center;
+  padding: 50px 20px;
+  background-image: url("../assets/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.banner-content h1 {
+  font-size: 48px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.banner-content p {
+  color: white;
+  margin-bottom: 30px;
+}
+
+span {
+  font-weight: italic;
+}
+
+.banner-content .btn {
+  margin-top: 150px;
+}
+
+/* Speakers Section  styles*/
